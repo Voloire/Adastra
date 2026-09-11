@@ -27,6 +27,8 @@
 21. The owner participates in manual review and publication approval. Living documentation requires maintained validation, not an automatic accuracy guarantee.
 22. Retain generalized decisions publicly and sensitive operational notes locally outside Git. A private backup remains to be arranged; do not promise complete conversation archival.
 
+23. Development uses Luna 5.6 High; web research uses Terra; planning and complex reasoning use Astra or Sol. Additional workers are not the default; no concurrent duplicate assignments. More-capable model escalation requires prior approval with plan, rationale, and budget.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.

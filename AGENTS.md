@@ -27,6 +27,8 @@
 
 - Separate measured usage, estimated cost, and unavailable data.
 - Before delegation, perform 2-3 direct reads, define at most three initial questions with nonoverlapping scopes, and state the budget.
-- Use Luna/Terra for collection, Astra/Sol for decisions and review, and Luna with high reasoning effort for coding.
+- Use Luna 5.6 with high reasoning effort for development, Terra for web research, and Astra or Sol for planning and complex reasoning. These rules apply to both laboratory experiments and actual project work.
+- Do not launch additional workers by default. Never assign two concurrent workers to the same task; keep delegated execution sequential.
+- Before escalating a task or spike to a more capable model, obtain the owner's explicit approval with a plan, rationale, scope, and estimated budget. Do not silently substitute models when the selected model is unavailable.
 - Report agent count, model tiers, and order-of-magnitude cost when delegating.
 - Keep delegated reports within 300 words and final summaries within 800 words unless requested otherwise.

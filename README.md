@@ -32,6 +32,21 @@ The working branch is `dev`. Each work session ends with verification, a commit 
 
 ## Enterprise tools
 
+### Dedicated Free account setup
+
+1. Open [Atlassian Free](https://www.atlassian.com/software/free) and select Confluence Free. Use a personal identity separate from the company-managed environment.
+2. Complete registration and email verification yourself. Create a new experimental site, not a company site; choose an available site name.
+3. Confirm the selected plan is Free. Do not activate a paid trial, enter payment details, or upgrade for this experiment.
+4. Create an Adastra documentation space with demo or approved public content only. Add Jira Free to the dedicated site if available in the setup flow; otherwise use the same Free entry page to select Jira and the experimental site.
+5. Create a small Jira project with a Kanban board. Keep initial setup minimal; page structure and backlog mapping will be reviewed together.
+6. Share only the experimental site URL when ready, never passwords or tokens. Connector authorization and narrowly scoped access are a separate next step; neither is configured yet.
+
+If registration routes to an existing company organization, stop and verify the destination before proceeding. Free-plan availability and limits should be rechecked on the signup page.
+
+### Execution and cost controls
+
+Use Luna 5.6 High for development, Terra for web research, and Astra or Sol for planning and complex reasoning. Avoid additional workers by default and never run two on the same task concurrently. Apply these rules to real project work as well as experiments. Any escalation to a more capable model requires prior owner approval of the plan, rationale, and estimated budget. Unavailable models are a blocker to resolve, not permission for silent substitution.
+
 The immediate next step is a dedicated Jira and Confluence Cloud Free site, separate from company services, followed by connector authorization and the first brownfield experiment. Minimal local wiki, ticket, and Kanban simulations remain a fallback if account setup blocks progress.
 
 [Atlassian Free plans](https://www.atlassian.com/software/free) provide the account entry point. No paid trial is needed for the initial experiment.

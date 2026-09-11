@@ -47,6 +47,8 @@ Local proposal records initially simulate a PR packet; they are not hosted PRs. 
 
 ## 5. Instrumentation and budget
 
+Execution policy: Luna 5.6 High for development, Terra for web research, and Astra or Sol for planning and complex reasoning. Do not launch additional workers by default or duplicate concurrent assignments. Obtain explicit approval with plan, rationale, and budget before any escalation to a more capable model, including spikes. This policy also governs implementation of the laboratory itself.
+
 Use separate CLI sessions per role and capture structured events. Run one calibration before batches to verify authentication, actual access to requested models, structured outputs, and usage fields. Visible user tasks are not a substitute for subagents without a specific request.
 
 Record model/settings, input/output versions, duration, observable sources, tool calls, retries, delegations, tests, findings, and human minutes. Observed reads do not represent the full internal context.

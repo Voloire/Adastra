@@ -1,5 +1,11 @@
 # Discovery travel log
 
+## Step 004 — Session handoff and execution controls
+
+Tag: `step-004-session-handoff`
+
+Recorded the owner's model routing, sequential delegation constraints, and mandatory approval before model escalation. Added dedicated Atlassian Free signup instructions to the README. No additional workers were launched, accounts created, or integrations connected. Next session begins with the owner's experimental site and a review of the brownfield plan; sensitive local notes still require an authorized private backup.
+
 ## Step 003 — Knowledge provenance design
 
 Tag: `step-003-knowledge-provenance`
