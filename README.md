@@ -30,6 +30,34 @@ Planning is documented. Laboratory implementation and functional brownfield anal
 
 The working branch is `dev`. Each work session ends with verification, a commit of relevant authorized changes, and a push. Local-only work is not a completed delivery. No empty commits are required.
 
+### Branching strategy
+
+| Branch | Purpose |
+| --- | --- |
+| `main` | Reviewed, reproducible milestones of the complete discovery package. |
+| `dev` | Current documentation, hypotheses, tools, and experiments. |
+| `spike/<topic>` | Optional short-lived experiment with one question and an explicit stopping criterion. |
+| `feat/<topic>` | Optional short-lived branch for a scoped implementation. |
+
+```mermaid
+flowchart LR
+    A[Explore on dev] --> B[Review evidence and decisions with owner]
+    B --> C[Pull request from dev to main]
+    C --> D[Merge preserving commits]
+    D --> E[Version tag and travel log]
+    E --> F[Fast-forward dev to main and continue]
+    A --> G[Optional spike or feature branch]
+    G --> A
+```
+
+Session closure publishes work to `dev`; it does not automatically promote it to `main`. At a milestone, document the question, method, evidence, results, and limitations, then review together before merging a `dev` to `main` pull request. Preserve individual commits and use a merge commit, not squash. After promotion, fast-forward `dev` to include that merge commit before new work; if it has diverged, reconcile explicitly without force-pushing.
+
+Immutable annotated `step-NNN-short-name` tags identify completed journal milestones, including documentation decisions on `dev`. Annotated `vX.Y.Z` tags identify consolidated package versions on `main`; not every session or milestone needs a version bump. Existing tags remain unchanged. Version `v0.1.0` is a planning baseline, not an application release.
+
+Branch optional spikes and features from `dev`, bring useful results back to `dev`, and retire them after integration. Preserve negative findings in the journal even if experimental code is not retained. Avoid permanent branches per phase, person, or model. `main` contains reviewed, qualified knowledge, not only proven claims: open hypotheses and failed experiments must retain explicit labels.
+
+Every pushed branch is public. Keep confidential case code and evidence outside this repository. These are operational agreements; GitHub branch-protection rules are not configured by this documentation change. The existing default branch remains unchanged.
+
 ## Enterprise tools
 
 ### Dedicated Free account setup

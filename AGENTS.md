@@ -15,6 +15,10 @@
 - Use concise Mermaid diagrams when they clarify workflows, approval gates, or source relationships. Keep diagram labels in US English and consistent with the written process.
 
 - Work on `dev`.
+- Keep `main` for reviewed, reproducible milestones and `dev` for ongoing exploration. Session-end pushes do not automatically promote work to `main`.
+- Promote `dev` through a pull request after owner review, preserving commits with a merge commit rather than squash. After promotion, fast-forward `dev` to include the merge commit before continuing; never rewrite published history.
+- Use short-lived `spike/<topic>` or `feat/<topic>` branches from `dev` only when isolation is useful; return useful results to `dev`. Record negative findings even when experimental code is not retained. Do not create permanent branches per phase, person, or model.
+- Use immutable annotated `step-NNN-short-name` tags for completed journal milestones and `vX.Y.Z` tags on `main` for consolidated package versions. A session does not require a version bump. Branches in this public repository are not privacy boundaries.
 - Record each completed discovery milestone in `docs/TRAVEL_LOG.md` and publish an immutable annotated `step-NNN-short-name` tag with its commit. Do not tag unfinished work as complete.
 - Plan new implementation work first; execute when requested.
 - End sessions by verifying, committing, and pushing relevant authorized changes. Do not create empty commits.

@@ -29,6 +29,8 @@
 
 23. Development uses Luna 5.6 High; web research uses Terra; planning and complex reasoning use Astra or Sol. Additional workers are not the default; no concurrent duplicate assignments. More-capable model escalation requires prior approval with plan, rationale, and budget.
 
+24. Adopt two permanent branches: `dev` for current exploration and `main` for reviewed milestones. Promote through owner-reviewed pull requests with merge commits preserving history, not squash. Fast-forward `dev` after promotion. Optional short-lived `spike/<topic>` and `feat/<topic>` branches return results to `dev`; no permanent branches per phase, person, or model. Session-end pushes are not automatic promotions. Use annotated milestone tags for the journal and version tags on `main` for consolidated packages. Public branches do not isolate private data. This is an operational policy, not a claim of configured GitHub enforcement.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.

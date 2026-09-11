@@ -1,5 +1,13 @@
 # Discovery travel log
 
+## Step 006 — Approved branching strategy
+
+Tag: `step-006-branching-strategy`
+
+The owner approved two permanent branches, optional short-lived experiment and feature branches, and owner-reviewed pull requests from `dev` to `main` with preserved commit history. The README now includes the workflow diagram; working agreements define session closure, promotion, and tag semantics. After a promotion, bring the merge commit back into `dev` by fast-forward before continuing.
+
+This milestone records the approved workflow on `dev`; it does not promote a new package version to `main`. No GitHub protection settings, default-branch changes, application implementation, or brownfield analysis are included. Verification is limited to documentation consistency, Git whitespace checks, attribution, and publication alignment.
+
 ## Step 005 — First versioned planning baseline
 
 Milestone tag: `step-005-planning-release`
