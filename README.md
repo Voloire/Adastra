@@ -94,9 +94,11 @@ Jira and GitHub must advance coherently. A work item that changes repository con
 
 The following is a proposed selection, not a claim that these workflows have already run on the case.
 
+The [brownfield procedure and evaluation guide](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/163847) is the operational entry point for the proposal, skill selection, and review records.
+
 | Phase | Skill or procedure | Assessment and current status |
 | --- | --- | --- |
-| 1: Brownfield | `brownfield-discovery` | Proposed project-specific skill; not implemented or installed. Reconstruct observed behavior with code evidence, record uncertainty, and separate current behavior from business intent. No dedicated existing brownfield skill has been selected in this environment. |
+| 1: Brownfield | [`brownfield-discovery`](proposals/brownfield-discovery/SKILL.md) | Versioned draft with separate runtime adapters and an evidence contract. Not installed or behaviorally validated. Reconstruct observed behavior with code evidence, record uncertainty, and separate current behavior from business intent. |
 | 2: Requirements clarification | `brainstorming` from Superpowers | Existing skill available locally and inspected. Helps clarify intent and design with the PO; it is not a reverse-engineering or Jira publishing tool. |
 | 2: Technical task planning | `writing-plans` from Superpowers | Existing skill available locally and inspected. Decomposes an approved specification into implementation tasks; it does not by itself provide a complete business backlog with epics, stories, and Jira synchronization. |
 | 2: Business backlog decomposition | `backlog-decomposition` | Proposed project-specific procedure, not yet implemented. Build on clarified requirements and technical planning, adding story boundaries, acceptance criteria, dependencies, coverage checks, and publication mapping. |

@@ -50,7 +50,7 @@
 ## Pending evidence
 
 - Maintain a discovery travel log and tag every completed milestone. First milestone: project charter and planning baseline.
-- Proposed brownfield procedure name: `brownfield-discovery`. It is not implemented or installed yet. Design its instructions in portable SKILL.md format, with runtime-specific adapters documented separately; validate separately on each runtime before claiming compatibility.
+- Proposed brownfield procedure: [`brownfield-discovery`](../proposals/brownfield-discovery/SKILL.md). A versioned draft separates the portable core, runtime adapter requirements, evidence contract, and validation protocol. It is not installed or behaviorally validated; owner review and runtime qualification remain prerequisites to case execution. Operational review and approval records belong in Atlassian.
 
 - Case stack, startup procedure, test coverage, and safe execution requirements.
 - A representative evolution requirement and evaluation reference.
