@@ -17,6 +17,16 @@
 13. Publish only the user's GitHub noreply email in Git metadata, never a personal email.
 14. Next user-facing step: create dedicated Atlassian Free accounts and connect access. The first substantive experiment is code-based brownfield reconstruction of Let's Check, reviewed by its owner. Keep local simulations as a fallback if account setup blocks progress.
 
+15. Evaluate durable knowledge as phase three, drawing on the LLM Wiki pattern. Define evidence fields before the brownfield run so later synthesis has traceable inputs.
+16. Keep observations, inferred intent, PO-approved intent, and decisions distinct. Linting identifies structural faults and possible semantic problems; it does not establish truth.
+17. Record factual model/run provenance for delegated choices as requested by the owner, without altering Git authorship or adding generation credits.
+18. Publish approved, revision-linked views to Confluence and work-item links to Jira. Initially avoid automatic bidirectional synchronization.
+
+19. Reconcile approved requirements with implementation evidence before proposing documentation updates. Preserve discrepancies and require explicit acceptance; wiki processing is not a prerequisite.
+20. Plan read-only project consultation through Slack using authoritative operational sources, approved documents, audience restrictions, and source freshness. No connection is authorized merely by possessing a token.
+21. The owner participates in manual review and publication approval. Living documentation requires maintained validation, not an automatic accuracy guarantee.
+22. Retain generalized decisions publicly and sensitive operational notes locally outside Git. A private backup remains to be arranged; do not promise complete conversation archival.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.

@@ -76,7 +76,7 @@ Only after a favorable review experiment compare model allocations across the fu
 
 ## 7. Real enterprise tools
 
-Validate the same workflow later on a dedicated personal Jira and Confluence Cloud Free site, separate from company accounts. Free plans support up to 10 users; Jira provides backlog/Kanban and Confluence versioned pages. No paid trial is required.
+Use a dedicated personal Jira and Confluence Cloud Free site as the selected initial enterprise environment, separate from company accounts; local simulations are a fallback. Free plans support up to 10 users; Jira provides backlog/Kanban and Confluence versioned pages. No paid trial is required.
 
 Franco completes account registration, identity verification, and access grants. Use only demo or explicitly authorized content. Free permissions/audit/automation limits mean laboratory telemetry remains independent.
 
@@ -93,6 +93,14 @@ Before brownfield execution, define the proposed `brownfield-discovery` procedur
 Test demo restoration, session separation, dossier isolation, failed gates, stale approvals, duplicate ticket claims, retries, synchronization failures, and unavailable models.
 
 Deliver setup instructions, local simulations, protocol, instrumentation, brownfield feasibility findings, comparison results, and the real Atlassian walkthrough once the account exists. Do not modify case functionality before reconnaissance and approved requirement definition.
+
+## 9. Knowledge reconciliation and consultation roadmap
+
+The README defines the accepted planning direction for evidence records, knowledge maintenance, reconciliation, and a read-only Slack interface. Define record fields before discovery. After implementation, compare frozen PO requirements with candidate evidence, resolve discrepancies with the owner and technical reviewer, and commit the accepted report before owner-approved Confluence publication. Wiki synthesis is downstream and optional.
+
+Evaluate source-backed onboarding answers and seeded stale/contradictory records. Measure retrieval correctness, unsupported statements, stale-data detection, false positives, and human maintenance effort. Slack project-state answers must consult authorized operational sources and identify freshness rather than rely solely on wiki snapshots. Validate access, organizational consent, and existing service configuration before integration; do not collect secrets during planning.
+
+Keep sensitive integration details in ignored local notes. Complete a public-content review before each push. Private backup, implementation design, and integration authorization remain separate pending steps.
 
 ## References
 

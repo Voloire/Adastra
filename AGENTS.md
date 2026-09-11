@@ -6,12 +6,13 @@
 - Use standard US English for repository content, commit messages, pull requests, issues, reports, and other external deliverables.
 - Use only the user's existing Git identity. Before every commit, verify effective author and committer against the configured identity.
 - Never change Git name, email, signing identity, or authorship metadata. Stop if identity is missing or inconsistent.
-- Never add AI attribution, provenance statements, or additional coauthor trailers.
+- Never add AI authorship credits, generated-by statements, or additional coauthor trailers. The owner's explicit request for experimental model/run decision provenance permits factual measurement records only, not changes to Git attribution. Keep private evidence out of public records.
 - Never publish the user's personal email. The verified Git identity must use the user's GitHub noreply address; stop rather than replacing identity settings if it does not.
 
 ## Delivery
 
 - Treat README.md as the current primary documentation entry point. Keep the detailed plan, decisions, and journal consistent with it. After Atlassian setup, use Confluence for explanatory pages and Jira for work items, retaining revision links.
+- Use concise Mermaid diagrams when they clarify workflows, approval gates, or source relationships. Keep diagram labels in US English and consistent with the written process.
 
 - Work on `dev`.
 - Record each completed discovery milestone in `docs/TRAVEL_LOG.md` and publish an immutable annotated `step-NNN-short-name` tag with its commit. Do not tag unfinished work as complete.

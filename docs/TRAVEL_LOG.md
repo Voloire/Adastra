@@ -1,5 +1,17 @@
 # Discovery travel log
 
+## Step 003 — Knowledge provenance design
+
+Tag: `step-003-knowledge-provenance`
+
+Reviewed the original Karpathy LLM Wiki gist and added a phase-three design to the README. The gist is a conceptual pattern, not an installed skill. Adastra's proposed extension distinguishes evidence types, approval status, revision validity, structural checks, semantic review, and controlled publication.
+
+The owner requested traceability of intent, decisions, affected code, and delegated model choices. Technical experiment provenance is separate from Git authorship. Brownfield conclusions cannot establish original intent without additional evidence or owner confirmation.
+
+This milestone completes documentation only. No wiki, lint checks, Atlassian publication, or brownfield execution has been implemented. Next: establish the first experiment's evidence fields, permissions, and reference questions before collecting case findings; evaluate knowledge maintenance once earlier phases provide inputs.
+
+Additional requirements captured in this milestone: owner-led manual review, reconciliation before documentation publication, read-only project-state consultation, and evidence-backed onboarding. Sensitive integration details are retained in an ignored local note rather than this public record. No credentials were collected. Private backup remains pending.
+
 ## Step 002 — Skill roadmap and documentation home
 
 Tag: `step-002-skill-roadmap`
