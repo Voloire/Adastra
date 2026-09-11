@@ -1,5 +1,13 @@
 # Discovery travel log
 
+## Step 007 — Lightweight main protection
+
+Tag: `step-007-main-protection`
+
+Applied the owner-approved GitHub branch protection to `main`: require pull requests with zero mandatory approvals, prevent force pushes and deletion, and enforce the policy for administrators too. No status checks, signatures, code-owner reviews, or linear history are required. Read-back verification confirmed the settings and that `dev` remains unprotected. No destructive push was used to test enforcement. Tag immutability remains an operational convention.
+
+This configuration and documentation milestone does not merge `dev` into `main` or publish a new package version.
+
 ## Step 006 — Approved branching strategy
 
 Tag: `step-006-branching-strategy`

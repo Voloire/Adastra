@@ -56,7 +56,9 @@ Immutable annotated `step-NNN-short-name` tags identify completed journal milest
 
 Branch optional spikes and features from `dev`, bring useful results back to `dev`, and retire them after integration. Preserve negative findings in the journal even if experimental code is not retained. Avoid permanent branches per phase, person, or model. `main` contains reviewed, qualified knowledge, not only proven claims: open hypotheses and failed experiments must retain explicit labels.
 
-Every pushed branch is public. Keep confidential case code and evidence outside this repository. These are operational agreements; GitHub branch-protection rules are not configured by this documentation change. The existing default branch remains unchanged.
+Every pushed branch is public. Keep confidential case code and evidence outside this repository. The existing default branch remains unchanged.
+
+GitHub protection is enabled for `main`, including administrators: pull requests are required with zero mandatory approvals, force pushes and branch deletion are blocked, and no CI checks are required yet. Signatures, code-owner reviews, and linear history are not required. `dev` remains unprotected. Tag immutability is an operational agreement, not an enforced tag rule. Revisit required CI checks once meaningful tests exist.
 
 ## Enterprise tools
 

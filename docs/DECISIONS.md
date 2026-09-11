@@ -31,6 +31,8 @@
 
 24. Adopt two permanent branches: `dev` for current exploration and `main` for reviewed milestones. Promote through owner-reviewed pull requests with merge commits preserving history, not squash. Fast-forward `dev` after promotion. Optional short-lived `spike/<topic>` and `feat/<topic>` branches return results to `dev`; no permanent branches per phase, person, or model. Session-end pushes are not automatic promotions. Use annotated milestone tags for the journal and version tags on `main` for consolidated packages. Public branches do not isolate private data. This is an operational policy, not a claim of configured GitHub enforcement.
 
+25. Enable lightweight GitHub protection on `main`, including administrators: require a pull request with zero mandatory approvals, block force pushes and deletion, and require no CI checks yet. Keep `dev` unprotected. No signature, code-owner, or linear-history requirement. This implements the protection layer that was not yet configured in decision 24; tag immutability remains procedural.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.
