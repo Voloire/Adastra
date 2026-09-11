@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 005 — First versioned planning baseline
+
+Milestone tag: `step-005-planning-release`
+
+Version tag: `v0.1.0`
+
+The owner requested publication on `main` in addition to `dev`. Remote inspection found no existing `main` branch, so the first main baseline is created from the committed development history; no artificial merge commit is required. Keep `dev` for ongoing work and retain the existing default-branch setting.
+
+This version contains the project charter, plan, decisions, and discovery journal only. No application release, brownfield execution, or integration is implied. Verification covers tracked-file scope, Git whitespace checks, configured attribution, and remote branch/tag alignment. Private notes and the separate brownfield checkout remain excluded.
+
 ## Step 004 — Session handoff and execution controls
 
 Tag: `step-004-session-handoff`
