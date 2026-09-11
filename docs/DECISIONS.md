@@ -37,13 +37,15 @@
 
 27. Use the supported Atlassian connector as the default integration path. Identity, resource discovery, Rovo search, Jira and Confluence reads, JQL search, and a narrowly scoped Jira write were verified on 2026-09-11. The previous connector failure is no longer reproducible, but its root cause is not established. Custom REST adapters require a later approved connector-gap finding.
 
+28. After ADA-1, use Atlassian exclusively for day-to-day work management. Jira owns the backlog, priorities, ownership, status, and blockers; Confluence owns operational plans and procedures. README documents the project and provides navigation, without duplicating operational tracking. Git retains code, versioned deliverables, consolidated decisions, and immutable milestone history. This clarification was approved by the owner on 2026-09-11.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.
 - Python 3.13, Git 2.55, Node 24, and Codex CLI 0.153.4 are available.
 - SSH and GitHub CLI work in the user's environment. Initial sandbox failures did not establish invalid user credentials.
 - Docker and uv were not found on PATH and are not required for the initial approach.
-- No laboratory dependencies have been provisioned. The dedicated Atlassian site, Adastra Confluence space, Jira project, and connector are operational; Free-plan verification and reciprocal project links remain pending in ADA-1.
+- No laboratory dependencies have been provisioned. The dedicated Atlassian site, Adastra Confluence space, Jira project, and connector are operational. Jira and Confluence Free plans and reciprocal project links were verified in milestone step-009.
 
 ## Pending evidence
 
@@ -54,7 +56,6 @@
 - A representative evolution requirement and evaluation reference.
 - Which case content is authorized for model execution and public reports.
 - Actual telemetry, model availability, and comparative batch budget.
-- Verified Free subscription state and reciprocal Jira-Confluence project links (ADA-1).
 
 ## Superseded
 

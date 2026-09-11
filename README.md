@@ -21,9 +21,9 @@ The hypothesis is that structured handoffs and targeted context retrieval improv
 
 Planning is documented. Laboratory implementation and functional brownfield analysis have not started. Let's Check is the selected real case; its separate local checkout is excluded from this public repository.
 
-The dedicated personal Atlassian site is operational. Connector verification on 2026-09-11 confirmed the expected identity and site, cross-product Rovo search, direct Jira and Confluence reads, validated JQL search, and a narrowly scoped Jira write. The earlier `INVALID_ARGUMENT` failure is no longer reproducible; its root cause remains unconfirmed. [ADA-2](https://voloirex.atlassian.net/browse/ADA-2) records the evidence and is complete.
+The dedicated personal Atlassian site provides Jira and Confluence on Free plans. Environment verification and connector validation are retained in the immutable discovery milestones. Consult Atlassian for current operational status and work priorities.
 
-Confluence is now the primary home for operational explanatory documentation, and Jira is the source for work-item state. Git remains the versioned record for code, approved deliverables, consolidated decisions, and immutable milestones. This README is a concise repository entry point rather than a parallel operational register.
+Day-to-day work management belongs exclusively in Atlassian: Jira holds the backlog, priorities, ownership, status, and blockers; Confluence holds operational plans, procedures, and explanatory documentation. Git remains the versioned record for code, approved deliverables, consolidated decisions, and immutable milestones. This README documents the project and links to Atlassian without duplicating operational work tracking.
 
 - [Work plan](docs/PLAN.md)
 - [Decision record](docs/DECISIONS.md)
@@ -68,17 +68,17 @@ GitHub protection is enabled for `main`, including administrators: pull requests
 
 ### Dedicated Atlassian environment
 
-The dedicated personal Atlassian site contains the Adastra Confluence space and Jira project. The connector is authorized and verified for the current experimental identity without API tokens, credential sharing, or scope expansion. Use only demo or explicitly approved public content.
+The dedicated personal Atlassian site contains the Adastra Confluence space and Jira project. Connector validation preceded the Free-plan downgrades; post-downgrade connector behavior has not been tested. Use only demo or explicitly approved public content.
 
-Subscription verification and reciprocal Jira-Confluence project links remain tracked in [ADA-1](https://voloirex.atlassian.net/browse/ADA-1). Do not claim the Free-plan check complete until its evidence is recorded. Connector recovery evidence is retained in [ADA-2](https://voloirex.atlassian.net/browse/ADA-2); the next procedural milestone is [ADA-3](https://voloirex.atlassian.net/browse/ADA-3).
+The [Adastra Kanban board](https://voloirex.atlassian.net/jira/software/projects/ADA/boards/1) links to the [Confluence documentation home](https://voloirex.atlassian.net/wiki/spaces/ADA/overview) through Shortcuts, and its Docs view is connected to the Adastra space. Confluence provides the reciprocal board shortcut. Subscription and navigation evidence is recorded in the [discovery travel log](docs/TRAVEL_LOG.md).
 
-Use the supported connector for Atlassian operations. Do not create API tokens or custom REST adapters unless a later, approved experiment demonstrates a requirement the connector cannot satisfy. If account flows route to a company organization, or request a paid trial, payment details, or broader scopes, stop and verify the destination and authorization boundary.
+Use the supported connector where available and authorized; use the browser when the owner selects that route. Do not create API tokens or custom REST adapters unless a later, approved experiment demonstrates a requirement the connector cannot satisfy. If account flows route to a company organization, or request a paid trial, payment details, or broader scopes, stop and verify the destination and authorization boundary.
 
 ### Execution and cost controls
 
 Use Luna 5.6 High for development, Terra for web research, and Astra or Sol for planning and complex reasoning. Avoid additional workers by default and never run two on the same task concurrently. Apply these rules to real project work as well as experiments. Any escalation to a more capable model requires prior owner approval of the plan, rationale, and estimated budget. Unavailable models are a blocker to resolve, not permission for silent substitution.
 
-The immediate next step is to complete the remaining environment checks in ADA-1, then define and obtain owner review of the portable brownfield procedure in ADA-3 before running the first experiment. Minimal local wiki, ticket, and Kanban simulations remain a fallback if Atlassian blocks progress.
+The portable brownfield procedure requires owner review before the first experiment. Current sequencing and acceptance criteria belong in Jira and Confluence. Minimal local wiki, ticket, and Kanban simulations remain a fallback if Atlassian blocks progress.
 
 [Atlassian Free plans](https://www.atlassian.com/software/free) provide the account entry point. No paid trial is needed for the initial experiment.
 
@@ -150,7 +150,7 @@ Structural lint checks required fields, identifier uniqueness, resolvable author
 
 Start with a small, owner-reviewed set of records. Seed known missing sources, contradictions, and stale references into isolated test copies. Measure detection and false-positive rates, time until stale knowledge is flagged, source coverage, unsupported assertions, human correction time, and maintenance cost. Test whether a reader can correctly recover what was decided, why, by whose authority, and for which revision. Compare against the same questions using only the existing README and journal.
 
-No wiki service, lint implementation, or new skill has been installed. The README remains the documentation home until the next implementation plan is approved. Technical model/run provenance is experimental evidence requested by the owner; it does not change Git authorship or add coauthor credits.
+No wiki service, lint implementation, or new skill has been installed. Confluence is the operational documentation home; this README preserves the consolidated project design. Technical model/run provenance is experimental evidence requested by the owner; it does not change Git authorship or add coauthor credits.
 
 ## Reconciliation before documentation updates
 

@@ -1,5 +1,17 @@
 # Discovery travel log
 
+## Step 009 — Free environment and reciprocal navigation
+
+Tag: `step-009-atlassian-free-environment`
+
+Verified the dedicated Adastra environment through Brave on 2026-09-11. Initial inspection found Jira and Confluence on Premium 30-day trials, not Free. The owner completed both downgrades; subscription detail pages and the billing subscription list subsequently showed Free for both products, with one user each. The payment-methods page explicitly reported that the billing account had no payment methods. No credentials or payment details were entered, and no paid subscription was purchased.
+
+Connected the Adastra Confluence space to Jira's Docs view and added the `Adastra documentation` shortcut to the [Jira board](https://voloirex.atlassian.net/jira/software/projects/ADA/boards/1). Added the reciprocal `Adastra Kanban board` shortcut to the [Confluence documentation home](https://voloirex.atlassian.net/wiki/spaces/ADA/overview). Read-back confirmed both shortcuts and the connected space. Confluence records the environment evidence and the owner-approved operating model: Jira and Confluence exclusively manage daily work; README documents the project, while Git preserves versioned deliverables, consolidated decisions, and immutable milestones. Only approved public planning content and navigation links were published.
+
+Verification limits: the billing console continued to display a payment-details warning even though both product plans showed Free and the account had no payment methods. The cause is unconfirmed; the displayed plan state does not establish future billing behavior. No Atlassian plugin or connector was invoked in this session, and the earlier connector tests are not a post-downgrade validation. Official [Atlassian MCP documentation](https://www.atlassian.com/platform/rovo-mcp) states that Cloud Free customers have access with a site limit of 500 calls per hour. [Rovo credit documentation](https://support.atlassian.com/rovo/docs/rovo-usage-limits/) distinguishes free single-product reads and writes from enriched, credit-consuming context calls. This is documentary eligibility evidence, not a successful connection test on this machine.
+
+[Confluence page 196947, version 6](https://voloirex.atlassian.net/wiki/spaces/ADA/history/196947/Adastra) records the environment evidence and operating model. [ADA-1](https://voloirex.atlassian.net/browse/ADA-1) retains the operational completion record and published Git revision. Subsequent sequencing and procedure approval belong in Atlassian; no brownfield experiment was run in this milestone.
+
 ## Step 008 — Atlassian connector validation
 
 Tag: `step-008-atlassian-connector`

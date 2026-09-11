@@ -8,7 +8,7 @@ Adastra contains the laboratory and publishable results. Case source, company tr
 
 ## 2. Reconnaissance and evaluation reference
 
-The dedicated Atlassian site and connector are operational. Complete the remaining Free-plan and reciprocal-link evidence in ADA-1, then define and obtain owner review of the portable discovery procedure in ADA-3. Only then may the first substantive experiment perform code-based brownfield reconstruction of Let's Check. Use the owner's knowledge for validation after reconstruction, not as answer material supplied to the evaluated session. Local enterprise simulations remain a fallback rather than a prerequisite for this first experiment.
+This file preserves the consolidated project design; Jira and Confluence hold the current operational plan and work state. The dedicated Atlassian site uses Jira and Confluence Free with reciprocal navigation. Define and obtain owner review of the portable discovery procedure before the first substantive experiment performs code-based brownfield reconstruction of Let's Check. Use the owner's knowledge for validation after reconstruction, not as answer material supplied to the evaluated session. Local enterprise simulations remain a fallback rather than a prerequisite for this first experiment.
 
 Read case instructions, manifests, entry points, documentation, and test configuration. Record the full baseline commit, cleanliness, dependencies, startup procedure, and executable checks. Do not assume the stack from the earlier synthetic application proposal.
 
@@ -78,7 +78,7 @@ Only after a favorable review experiment compare model allocations across the fu
 
 ## 7. Real enterprise tools
 
-Use the operational dedicated personal Jira and Confluence Cloud site as the selected initial enterprise environment, separate from company accounts; local simulations are a fallback. Verify the actual subscription state in ADA-1 before describing it as Free. No paid trial is required for the planned experiment.
+Use the dedicated personal Jira and Confluence Cloud Free site as the selected initial enterprise environment, separate from company accounts; local simulations are a fallback. Subscription verification is retained in milestone step-009. No paid trial is required for the planned experiment.
 
 Identity, site discovery, Jira and Confluence reads, Rovo search, JQL search, and a narrowly scoped Jira write were verified through the supported connector on 2026-09-11. Use only demo or explicitly authorized content. Subscription limits and Atlassian permissions/audit/automation limits mean laboratory telemetry remains independent.
 

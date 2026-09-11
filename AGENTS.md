@@ -11,7 +11,7 @@
 
 ## Delivery
 
-- Treat README.md as the current primary documentation entry point. Keep the detailed plan, decisions, and journal consistent with it. After Atlassian setup, use Confluence for explanatory pages and Jira for work items, retaining revision links.
+- Use Atlassian exclusively for day-to-day work management: Jira for backlog and status, Confluence for operational plans, procedures, and explanatory pages. README.md documents the project and links to Atlassian; do not duplicate operational tracking in Git. Keep versioned deliverables, consolidated decisions, and immutable milestone history consistent, retaining revision links.
 - Use concise Mermaid diagrams when they clarify workflows, approval gates, or source relationships. Keep diagram labels in US English and consistent with the written process.
 
 - Work on `dev`.
