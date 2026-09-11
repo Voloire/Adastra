@@ -1,6 +1,6 @@
 # Validation protocol
 
-Draft test specification, not executed behavioral evidence. Owner review of ADA-3 scope/questions and a private feasibility baseline are required before the case experiment. The proposal must not be described as deployed, runtime-compatible, or proven effective on the basis of static checks.
+Owner-approved test specification, not executed behavioral evidence. ADA-3 design, bounded scope, evaluation questions, and phase accounting were approved on 2026-09-11. A private feasibility baseline, runtime qualification, and approved run budget remain required before the case experiment. The procedure must not be described as deployed, runtime-compatible, or proven effective on the basis of static checks.
 
 ## Review layers
 
@@ -53,7 +53,7 @@ Proposed evaluation questions for owner review:
 2. What contradictions or omissions emerge only when comparing that frozen reconstruction with approved existing documentation?
 3. How much unsupported interpretation and owner correction remains, and what measured effort was required?
 
-Proposed active phases: boundary verification, code reconstruction, document comparison, and owner-disposition recording. Each active phase has a 20-minute maximum, giving at most 80 minutes of base active execution. Human waiting time is separate. Each of at most two corrections has its own 20-minute maximum, giving a maximum of 120 active minutes for the proposed full profile. This is a time ceiling, not a token/dollar budget or a promise to finish. The owner must approve this phase accounting and a monetary/token budget before execution; no automatic continuation after a partial result.
+Approved phase accounting: boundary verification, code reconstruction, document comparison, and owner-disposition recording. Each active phase has a 20-minute maximum, giving at most 80 minutes of base active execution. Human waiting time is separate. Each of at most two corrections has its own 20-minute maximum, giving a maximum of 120 active minutes for the full profile. This is a time ceiling, not a token/dollar budget or a promise to finish. A monetary/token budget still requires approval before execution; no automatic continuation after a partial result.
 
 The exact entry point, allowed commands, input revision, storage location, budget, selected runtime/model, and reference assertions cannot be filled from assumptions. They belong in the approved private feasibility/run record. The public plan may refer to sanitized IDs without exposing the private selection details.
 

@@ -1,6 +1,6 @@
 # Evidence contract
 
-Draft schema for review. These are required fields, not a claim that collection or validation is automated. Operational ownership and review state live in Atlassian; private run artifacts remain in the approved private evidence store.
+Schema accepted as part of the ADA-3 design on 2026-09-11. These are required fields, not a claim that collection or validation is automated. Operational ownership and review state live in Atlassian; private run artifacts remain in the approved private evidence store.
 
 ## Run manifest
 

@@ -1,6 +1,6 @@
 # Runtime adapter contract
 
-Draft requirements. This document does not establish installed compatibility, current product capabilities, or automated enforcement. Validate each selected runtime before using it with the case. The portable core must not depend on a particular CLI, connector, shell, or model name.
+Adapter requirements accepted as part of the ADA-3 design on 2026-09-11. This document does not establish installed compatibility, current product capabilities, or automated enforcement. Validate each selected runtime before using it with the case. The portable core must not depend on a particular CLI, connector, shell, or model name.
 
 ## Common adapter responsibilities
 

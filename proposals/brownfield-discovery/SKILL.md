@@ -5,7 +5,7 @@ description: Use when reconstructing an existing application's observed behavior
 
 # Brownfield discovery
 
-Draft for owner review. This package is a versioned proposal, not an installed or behaviorally validated skill. Loading it does not authorize a case run.
+Design approved by the owner on 2026-09-11 through ADA-3, following review of draft revision `91375cc4d6c380e165442562f7c98e00f1fa59dd`. This package is not installed or behaviorally validated. Loading it does not authorize a case run.
 
 ## Contract and entry gate
 

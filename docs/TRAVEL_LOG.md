@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 010 - Approved portable brownfield procedure design
+
+Tag: `step-010-brownfield-procedure`
+
+On 2026-09-11, the owner approved the ADA-3 design after reviewing the published draft at `91375cc4d6c380e165442562f7c98e00f1fa59dd`: one bounded vertical slice, three evaluation questions (evidence-backed reconstruction, discrepancies after document comparison, and unsupported interpretation/correction effort), and the proposed execution limits. The accepted accounting permits one active execution, four phases of at most 20 minutes each, and at most two corrections of at most 20 minutes each, with no recursive delegation. The maximum is 120 active minutes, excluding separately recorded human waiting time.
+
+The versioned deliverable separates the portable SKILL.md, evidence schema, runtime adapter requirements, and validation protocol. Reconstruction is frozen before documentation comparison and owner validation. Unverified isolation is explicitly non-blind; private dossier access and publication boundaries are defined. The [Confluence guide](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/163847) and [skill catalog](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/589828) document the method, inspected skill provenance, acceptance mapping, and review. Their version-1 pages and the immutable draft commit preserve the material reviewed. [ADA-3](https://voloirex.atlassian.net/browse/ADA-3) holds the operational approval and completion evidence.
+
+This milestone accepts the procedure design only. Static package/frontmatter, relative-link, whitespace, and publication checks support artifact delivery. No behavioral qualification, case reconstruction, skill installation, model comparison, or additional workers occurred. Private feasibility, exact input and safe-command selection, demonstrated runtime isolation/cancellation, and an approved run budget remain prerequisites. The completion tag does not claim that these later gates have passed. Work remains on dev; no main promotion is implied.
+
 ## Step 009 — Free environment and reciprocal navigation
 
 Tag: `step-009-atlassian-free-environment`

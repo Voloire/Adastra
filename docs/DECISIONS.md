@@ -39,6 +39,8 @@
 
 28. After ADA-1, use Atlassian exclusively for day-to-day work management. Jira owns the backlog, priorities, ownership, status, and blockers; Confluence owns operational plans and procedures. README documents the project and provides navigation, without duplicating operational tracking. Git retains code, versioned deliverables, consolidated decisions, and immutable milestone history. This clarification was approved by the owner on 2026-09-11.
 
+29. Approve the ADA-3 portable brownfield procedure design reviewed at `91375cc4d6c380e165442562f7c98e00f1fa59dd`, including one bounded vertical slice, the three evaluation questions, and four active phases of at most 20 minutes each plus at most two corrections of at most 20 minutes each (120 active minutes maximum). Use one active execution with no recursive delegation. Owner approval was received on 2026-09-11. Design acceptance does not authorize case execution, spending, or a model escalation; private feasibility, runtime qualification, exact input selection, and a run budget remain prerequisites. The operational approval record is in [ADA-3](https://voloirex.atlassian.net/browse/ADA-3).
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.
@@ -50,7 +52,7 @@
 ## Pending evidence
 
 - Maintain a discovery travel log and tag every completed milestone. First milestone: project charter and planning baseline.
-- Proposed brownfield procedure: [`brownfield-discovery`](../proposals/brownfield-discovery/SKILL.md). A versioned draft separates the portable core, runtime adapter requirements, evidence contract, and validation protocol. It is not installed or behaviorally validated; owner review and runtime qualification remain prerequisites to case execution. Operational review and approval records belong in Atlassian.
+- Approved brownfield procedure design: [`brownfield-discovery`](../proposals/brownfield-discovery/SKILL.md). The portable core, runtime adapter requirements, evidence contract, and validation protocol are versioned separately. It is not installed or behaviorally validated; private feasibility, runtime qualification, and an approved run profile remain prerequisites to case execution. Operational review and approval records belong in Atlassian.
 
 - Case stack, startup procedure, test coverage, and safe execution requirements.
 - A representative evolution requirement and evaluation reference.
