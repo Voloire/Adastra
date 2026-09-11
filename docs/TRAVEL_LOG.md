@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 002 — Skill roadmap and documentation home
+
+Tag: `step-002-skill-roadmap`
+
+The README is now the primary documentation entry point. It distinguishes proposed `brownfield-discovery` and `backlog-decomposition` procedures from existing `brainstorming` and `writing-plans` skills. The existing local instructions and upstream Superpowers/Claude Code documentation were inspected; no case analysis or cross-runtime execution was performed.
+
+Business backlog decomposition is phase two. Technical task planning alone does not establish complete story decomposition or Jira integration. Compatibility is split into packaging support and actual runtime validation. Future explanatory pages belong in Confluence; work items belong in Jira, with Git revision links.
+
+Next: dedicated Atlassian account and connector access, then define and validate the brownfield procedure before the first case run.
+
 ## Step 001 — Project charter and planning baseline
 
 Tag: `step-001-project-charter`

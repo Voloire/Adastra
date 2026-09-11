@@ -11,6 +11,8 @@
 
 ## Delivery
 
+- Treat README.md as the current primary documentation entry point. Keep the detailed plan, decisions, and journal consistent with it. After Atlassian setup, use Confluence for explanatory pages and Jira for work items, retaining revision links.
+
 - Work on `dev`.
 - Record each completed discovery milestone in `docs/TRAVEL_LOG.md` and publish an immutable annotated `step-NNN-short-name` tag with its commit. Do not tag unfinished work as complete.
 - Plan new implementation work first; execute when requested.
