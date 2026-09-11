@@ -8,7 +8,7 @@ Adastra contains the laboratory and publishable results. Case source, company tr
 
 ## 2. Reconnaissance and evaluation reference
 
-Immediate sequence after repository publication: Franco creates the dedicated Atlassian Free site, grants the selected connector access, and then the first substantive experiment performs code-based brownfield reconstruction of Let's Check. Use the owner's knowledge for validation after reconstruction, not as answer material supplied to the evaluated session. Local enterprise simulations remain a fallback rather than a prerequisite for this first experiment.
+The dedicated Atlassian site and connector are operational. Complete the remaining Free-plan and reciprocal-link evidence in ADA-1, then define and obtain owner review of the portable discovery procedure in ADA-3. Only then may the first substantive experiment perform code-based brownfield reconstruction of Let's Check. Use the owner's knowledge for validation after reconstruction, not as answer material supplied to the evaluated session. Local enterprise simulations remain a fallback rather than a prerequisite for this first experiment.
 
 Read case instructions, manifests, entry points, documentation, and test configuration. Record the full baseline commit, cleanliness, dependencies, startup procedure, and executable checks. Do not assume the stack from the earlier synthetic application proposal.
 
@@ -78,17 +78,19 @@ Only after a favorable review experiment compare model allocations across the fu
 
 ## 7. Real enterprise tools
 
-Use a dedicated personal Jira and Confluence Cloud Free site as the selected initial enterprise environment, separate from company accounts; local simulations are a fallback. Free plans support up to 10 users; Jira provides backlog/Kanban and Confluence versioned pages. No paid trial is required.
+Use the operational dedicated personal Jira and Confluence Cloud site as the selected initial enterprise environment, separate from company accounts; local simulations are a fallback. Verify the actual subscription state in ADA-1 before describing it as Free. No paid trial is required for the planned experiment.
 
-Franco completes account registration, identity verification, and access grants. Use only demo or explicitly authorized content. Free permissions/audit/automation limits mean laboratory telemetry remains independent.
+Identity, site discovery, Jira and Confluence reads, Rovo search, JQL search, and a narrowly scoped Jira write were verified through the supported connector on 2026-09-11. Use only demo or explicitly authorized content. Subscription limits and Atlassian permissions/audit/automation limits mean laboratory telemetry remains independent.
 
-Implement narrow REST adapters for pages, tickets, and transitions with credentials outside Git. Project accepted changes into ticket state with idempotent retries. Record synchronization failures and reconcile them without duplicating records or losing integration evidence.
+Use the supported connector for pages, work items, searches, and transitions. Add narrow custom REST adapters only if a later approved experiment identifies a connector gap; keep any credentials outside Git. Project accepted changes into ticket state with idempotent retries. Record synchronization failures and reconcile them without duplicating records or losing integration evidence.
+
+For repository-backed work, transition Jira in step with GitHub evidence: verify the candidate, commit and push the relevant revision, link the commit or pull request, then apply the agreed Jira completion rule. Reconcile requirement or decision changes originating in Jira or Confluence back into the accepted Git baseline. A failed push or publication leaves the corresponding work visibly pending.
 
 OpenProject Community is a viable wiki/board alternative but is not selected for the initial installation because it adds local infrastructure.
 
 ## 8. Verification and delivery
 
-Maintain `docs/TRAVEL_LOG.md` throughout discovery. Each completed milestone records purpose, inputs, method/skill version, findings, evidence, limitations, and next step, and receives an immutable annotated `step-NNN-short-name` Git tag. Publish the tag together with its commit.
+Maintain `docs/TRAVEL_LOG.md` as the immutable Git milestone history, not as a duplicate operational task register. Each completed milestone records purpose, inputs, method/skill version, findings, evidence, limitations, and next step, and receives an immutable annotated `step-NNN-short-name` Git tag. Publish the tag together with its commit. Use Confluence for current explanatory documentation and Jira for actionable work and status.
 
 Before brownfield execution, define the proposed `brownfield-discovery` procedure as a portable SKILL.md package. It is not currently implemented. Keep provider-specific tool names out of core instructions. Document installation and runtime adapters separately. Claude Code supports SKILL.md-based skills, but successful execution and comparable results require separate validation. See https://code.claude.com/docs/en/agent-sdk/skills.
 

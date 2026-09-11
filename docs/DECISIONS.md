@@ -33,13 +33,17 @@
 
 25. Enable lightweight GitHub protection on `main`, including administrators: require a pull request with zero mandatory approvals, block force pushes and deletion, and require no CI checks yet. Keep `dev` unprotected. No signature, code-owner, or linear-history requirement. This implements the protection layer that was not yet configured in decision 24; tag immutability remains procedural.
 
+26. Use Confluence as the primary operational documentation home and Jira as the source for actionable work and current status. Keep README as a concise repository entry point, and keep the travel log for immutable milestone history rather than day-to-day activity. Git continues to version code, approved deliverables, consolidated decisions, and milestone evidence; material Atlassian decisions require owner-reviewed reconciliation when they change the accepted Git baseline. Jira and GitHub advance coherently: repository-backed work is complete only after verified Git evidence is successfully pushed and linked, while failed publication remains explicitly pending.
+
+27. Use the supported Atlassian connector as the default integration path. Identity, resource discovery, Rovo search, Jira and Confluence reads, JQL search, and a narrowly scoped Jira write were verified on 2026-09-11. The previous connector failure is no longer reproducible, but its root cause is not established. Custom REST adapters require a later approved connector-gap finding.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.
 - Python 3.13, Git 2.55, Node 24, and Codex CLI 0.153.4 are available.
 - SSH and GitHub CLI work in the user's environment. Initial sandbox failures did not establish invalid user credentials.
 - Docker and uv were not found on PATH and are not required for the initial approach.
-- No laboratory dependencies or Atlassian accounts have been provisioned.
+- No laboratory dependencies have been provisioned. The dedicated Atlassian site, Adastra Confluence space, Jira project, and connector are operational; Free-plan verification and reciprocal project links remain pending in ADA-1.
 
 ## Pending evidence
 
@@ -50,9 +54,11 @@
 - A representative evolution requirement and evaluation reference.
 - Which case content is authorized for model execution and public reports.
 - Actual telemetry, model availability, and comparative batch budget.
+- Verified Free subscription state and reciprocal Jira-Confluence project links (ADA-1).
 
 ## Superseded
 
 - Private repository: replaced by the explicit public-repository request.
 - Synthetic purchasing application: replaced by Let's Check.
 - Git-only truth and mandatory diff-only review: replaced by the complete handoff contract.
+- Local enterprise simulations as the mandatory first environment: replaced by the operational dedicated Atlassian site; local simulations remain a fallback.

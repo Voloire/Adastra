@@ -21,6 +21,10 @@ The hypothesis is that structured handoffs and targeted context retrieval improv
 
 Planning is documented. Laboratory implementation and functional brownfield analysis have not started. Let's Check is the selected real case; its separate local checkout is excluded from this public repository.
 
+The dedicated personal Atlassian site is operational. Connector verification on 2026-09-11 confirmed the expected identity and site, cross-product Rovo search, direct Jira and Confluence reads, validated JQL search, and a narrowly scoped Jira write. The earlier `INVALID_ARGUMENT` failure is no longer reproducible; its root cause remains unconfirmed. [ADA-2](https://voloirex.atlassian.net/browse/ADA-2) records the evidence and is complete.
+
+Confluence is now the primary home for operational explanatory documentation, and Jira is the source for work-item state. Git remains the versioned record for code, approved deliverables, consolidated decisions, and immutable milestones. This README is a concise repository entry point rather than a parallel operational register.
+
 - [Work plan](docs/PLAN.md)
 - [Decision record](docs/DECISIONS.md)
 - [Discovery travel log](docs/TRAVEL_LOG.md)
@@ -62,28 +66,29 @@ GitHub protection is enabled for `main`, including administrators: pull requests
 
 ## Enterprise tools
 
-### Dedicated Free account setup
+### Dedicated Atlassian environment
 
-1. Open [Atlassian Free](https://www.atlassian.com/software/free) and select Confluence Free. Use a personal identity separate from the company-managed environment.
-2. Complete registration and email verification yourself. Create a new experimental site, not a company site; choose an available site name.
-3. Confirm the selected plan is Free. Do not activate a paid trial, enter payment details, or upgrade for this experiment.
-4. Create an Adastra documentation space with demo or approved public content only. Add Jira Free to the dedicated site if available in the setup flow; otherwise use the same Free entry page to select Jira and the experimental site.
-5. Create a small Jira project with a Kanban board. Keep initial setup minimal; page structure and backlog mapping will be reviewed together.
-6. Share only the experimental site URL when ready, never passwords or tokens. Connector authorization and narrowly scoped access are a separate next step; neither is configured yet.
+The dedicated personal Atlassian site contains the Adastra Confluence space and Jira project. The connector is authorized and verified for the current experimental identity without API tokens, credential sharing, or scope expansion. Use only demo or explicitly approved public content.
 
-If registration routes to an existing company organization, stop and verify the destination before proceeding. Free-plan availability and limits should be rechecked on the signup page.
+Subscription verification and reciprocal Jira-Confluence project links remain tracked in [ADA-1](https://voloirex.atlassian.net/browse/ADA-1). Do not claim the Free-plan check complete until its evidence is recorded. Connector recovery evidence is retained in [ADA-2](https://voloirex.atlassian.net/browse/ADA-2); the next procedural milestone is [ADA-3](https://voloirex.atlassian.net/browse/ADA-3).
+
+Use the supported connector for Atlassian operations. Do not create API tokens or custom REST adapters unless a later, approved experiment demonstrates a requirement the connector cannot satisfy. If account flows route to a company organization, or request a paid trial, payment details, or broader scopes, stop and verify the destination and authorization boundary.
 
 ### Execution and cost controls
 
 Use Luna 5.6 High for development, Terra for web research, and Astra or Sol for planning and complex reasoning. Avoid additional workers by default and never run two on the same task concurrently. Apply these rules to real project work as well as experiments. Any escalation to a more capable model requires prior owner approval of the plan, rationale, and estimated budget. Unavailable models are a blocker to resolve, not permission for silent substitution.
 
-The immediate next step is a dedicated Jira and Confluence Cloud Free site, separate from company services, followed by connector authorization and the first brownfield experiment. Minimal local wiki, ticket, and Kanban simulations remain a fallback if account setup blocks progress.
+The immediate next step is to complete the remaining environment checks in ADA-1, then define and obtain owner review of the portable brownfield procedure in ADA-3 before running the first experiment. Minimal local wiki, ticket, and Kanban simulations remain a fallback if Atlassian blocks progress.
 
 [Atlassian Free plans](https://www.atlassian.com/software/free) provide the account entry point. No paid trial is needed for the initial experiment.
 
-## Documentation home
+## Documentation and work tracking
 
-This README is the current primary documentation entry point. The linked plan, decisions, and travel log preserve supporting detail and history. Once the dedicated Atlassian site is connected, publish explanatory documentation to Confluence and actionable work items to Jira, linking each milestone to its Git revision. Do not create competing, unversioned copies of the approved specification.
+[Confluence](https://voloirex.atlassian.net/wiki/spaces/ADA/overview) is the primary operational documentation home. [Jira](https://voloirex.atlassian.net/jira/software/projects/ADA/boards) tracks actionable work and current status. Link durable Atlassian records to the relevant Git revision and keep confidential case material outside all public systems.
+
+This README provides repository orientation and the current consolidated baseline. The linked plan and decisions preserve versioned deliverables; the travel log records completed immutable milestones, not day-to-day activity. Avoid duplicating live Jira status or maintaining competing operational narratives in Git. Material Atlassian decisions become explicit, owner-reviewed Git updates when they change the accepted project baseline.
+
+Jira and GitHub must advance coherently. A work item that changes repository content is complete only after the relevant revision is verified, committed, and successfully pushed, with the commit or pull request linked from Jira. Conversely, a Jira or Confluence change that alters an accepted requirement or decision must be reconciled into the Git baseline. Failed publication or synchronization remains explicitly pending; neither system may imply completion that the other does not support.
 
 ## Skills and evaluation roadmap
 

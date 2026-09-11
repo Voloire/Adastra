@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 008 — Atlassian connector validation
+
+Tag: `step-008-atlassian-connector`
+
+Validated the supported connector against the dedicated `voloirex` Atlassian site in a fresh conversation. Current-user identity and accessible resources resolved successfully. Cross-product Rovo search returned the Adastra space, page, and Jira work item; direct reads of Confluence page `196947` and Jira issue ADA-2 succeeded; validated JQL returned the ADA project work items; and Atlassian Projects search completed successfully. A narrowly scoped Jira comment recorded the recovery evidence and proved write access, after which ADA-2 was transitioned to Done and read back in that state.
+
+The earlier generic `INVALID_ARGUMENT` failure is no longer reproducible. No reconnect, API token, scope expansion, or credential handling was required, but the root cause remains unconfirmed; this milestone records observed recovery rather than attributing an unverified fix. The connector's declared access includes Jira, Confluence, Projects, Goals, and Loom, but this milestone does not claim exhaustive write coverage. No Atlassian Projects were present in the search result.
+
+Confluence is now the primary operational documentation home and Jira the source for task state. Git retains consolidated, owner-reviewed baselines and immutable milestone history without duplicating live operational records. Complete the Free-plan and reciprocal-link evidence in ADA-1, then obtain owner review of the portable brownfield procedure in ADA-3 before executing the first experiment.
+
 ## Step 007 — Lightweight main protection
 
 Tag: `step-007-main-protection`
