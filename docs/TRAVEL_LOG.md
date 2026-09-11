@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 011 - OpenSpec as the initial brownfield workflow
+
+Tag: `step-011-openspec-start`
+
+The owner approved starting the bounded brownfield exploration with OpenSpec and requested reconciliation in Jira and README. The earlier proposal to wait for a reviewed behavioral baseline before trying OpenSpec is superseded. Technical feasibility and execution controls remain entry requirements; the selected slice's behavioral baseline is produced during exploration under the accepted ADA-3 evidence contract.
+
+[ADA-5](https://voloirex.atlassian.net/browse/ADA-5) records setup and first-run preparation. The [Confluence procedure, version 3](https://voloirex.atlassian.net/wiki/spaces/ADA/history/163847) preserves the prior design and adds the approved workflow amendment. README explains the starting approach and links to the operational records; decision 30 consolidates the choice. The source review used the [OpenSpec repository](https://github.com/Fission-AI/OpenSpec) and its [existing-projects guide](https://github.com/Fission-AI/OpenSpec/blob/main/docs/existing-projects.md).
+
+This milestone records a documentation and sequencing decision. It does not install OpenSpec, qualify a runtime, analyze the private case, or demonstrate improved results. Private evidence, reference isolation, reconstruction freezing, owner validation, phase limits and budget controls remain applicable. Jira and Confluence keep their operational authority. Verification covers the documentation diff, relative links, whitespace, Atlassian read-back and Git publication; no application tests are needed for this documentation-only change.
+
 ## Step 010 - Approved portable brownfield procedure design
 
 Tag: `step-010-brownfield-procedure`

@@ -41,6 +41,8 @@
 
 29. Approve the ADA-3 portable brownfield procedure design reviewed at `91375cc4d6c380e165442562f7c98e00f1fa59dd`, including one bounded vertical slice, the three evaluation questions, and four active phases of at most 20 minutes each plus at most two corrections of at most 20 minutes each (120 active minutes maximum). Use one active execution with no recursive delegation. Owner approval was received on 2026-09-11. Design acceptance does not authorize case execution, spending, or a model escalation; private feasibility, runtime qualification, exact input selection, and a run budget remain prerequisites. The operational approval record is in [ADA-3](https://voloirex.atlassian.net/browse/ADA-3).
 
+30. Use OpenSpec from the first bounded brownfield exploration. Produce the selected slice's behavioral baseline during exploration instead of requiring it before introducing OpenSpec. Preserve the ADA-3 evidence contract, frozen reconstruction before document comparison, owner validation, private boundaries, runtime qualification, model policy and approved run budget. OpenSpec provides the exploration/specification workflow; Jira owns work state and Confluence owns operational procedures. This owner-approved sequencing decision supersedes the earlier deferred-evaluation proposal in [ADA-5](https://voloirex.atlassian.net/browse/ADA-5). It does not claim completed installation, qualification or case execution. The [Confluence guide, version 3](https://voloirex.atlassian.net/wiki/spaces/ADA/history/163847) records the operational amendment to the step-010 design.
+
 ## Verified starting state
 
 - Let's Check was cloned over SSH and its working tree was clean when checked.

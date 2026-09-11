@@ -90,6 +90,14 @@ This README provides repository orientation and the current consolidated baselin
 
 Jira and GitHub must advance coherently. A work item that changes repository content is complete only after the relevant revision is verified, committed, and successfully pushed, with the commit or pull request linked from Jira. Conversely, a Jira or Confluence change that alters an accepted requirement or decision must be reconciled into the Git baseline. Failed publication or synchronization remains explicitly pending; neither system may imply completion that the other does not support.
 
+## Brownfield with OpenSpec
+
+The owner-approved approach uses [OpenSpec](https://github.com/Fission-AI/OpenSpec) from the first bounded brownfield exploration. Build the behavioral baseline incrementally for the selected slice, using code and test evidence; a complete application specification is not an entry requirement. Technical feasibility, private data boundaries, exact input revisions, runtime qualification, and an approved run budget still precede execution.
+
+OpenSpec supplies the exploration and specification workflow, while the approved brownfield procedure supplies the evidence contract. Keep observed behavior, hypotheses, and intended changes distinct. Freeze reconstruction before comparing existing documentation and validating intent with the owner. A reviewed slice can then support a small change through proposal, review, implementation, verification, and archive.
+
+This is an approved starting approach, not a claim of installation or a completed experiment. Case-specific artifacts stay in the approved private environment. Jira owns work state and Confluence owns operational procedures; OpenSpec must not create a competing backlog in Git. Setup and run preparation are tracked in [ADA-5](https://voloirex.atlassian.net/browse/ADA-5), with sequencing in the [brownfield guide](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/163847). See also the [upstream brownfield guide](https://github.com/Fission-AI/OpenSpec/blob/main/docs/existing-projects.md).
+
 ## Skills and evaluation roadmap
 
 The following is a proposed selection, not a claim that these workflows have already run on the case.
