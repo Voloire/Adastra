@@ -1,5 +1,15 @@
 # Discovery travel log
 
+## Step 012 - Complementary knowledge reconciliation framing
+
+Tag: not created; the laboratory implementation and client validation remain incomplete.
+
+The owner refocused the near-term demonstration on the boundary between an existing agentic delivery process and a complementary Knowledge Platform. The simulated delivery process retains authority over backlog, work state, specifications, code, tests, releases, and technical code memory. The Knowledge Platform does not replace or update those systems automatically. It records qualified claims with provenance, compares intent with implementation and operational evidence, identifies contradictions or stale material, and presents discrepancies to an authorized human before crystallizing approved knowledge.
+
+The demonstration will contain two small scenarios. The first starts with existing software and separates observed behavior from historical documents, human explanation, and approved intent. The second follows a feature from business intent through specification, implementation, tests, release, production evidence, and a later reconciliation decision. The final management story is a maintainer asking why the system behaves in a particular way and receiving a revision-linked answer with sources, evidence, authority, and unresolved uncertainty.
+
+Draft management artifacts were prepared outside this public repository using a supplied corporate presentation style and a simplified executive narrative. They are versioned as v0.1, dated 2026-09-15, attributed only to Franco Geraci, and shared privately. This milestone records the approved framing and artifact existence only. It does not publish client material, complete the local demonstration, validate real integrations, prove quality at scale, or establish measured cognitive-load reduction. The exact links, recipients, source transcript locations, and working details remain in an ignored local handoff record.
+
 ## Step 011 - OpenSpec as the initial brownfield workflow
 
 Tag: `step-011-openspec-start`
