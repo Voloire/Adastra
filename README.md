@@ -1,6 +1,18 @@
 # Adastra
 
-A measurement-first laboratory for multi-agent software development.
+A small, evidence-backed laboratory for a Git-based knowledge wiki alongside an existing software delivery process.
+
+## Current consolidated scope
+
+The current deliverable is a working reconciliation demonstration, not a replacement delivery platform or a diff-centered review experiment. The Knowledge Platform is a Karpathy-style LLM Wiki: preserved source material, maintained linked Markdown knowledge, conventions, an index, and a change history. Operational plans remain in Confluence and work remains in Jira.
+
+Current execution is limited to brownfield analysis of an existing application using OpenSpec. A new application and the specification-driven development scenario are deferred until a later owner session. The wiki is used from the start, including during construction of the demonstration; the earlier phase-three activation gate is superseded.
+
+The delivery process retains authority over work items, identifiers, specifications, code, tests and its technical graph. The wiki connects evidence, separates observations from intent, asks for explicit human decisions, and preserves the resulting knowledge. It does not automatically update source systems.
+
+The normal consultation path uses a physically filtered approved-only context packet. Pending and disputed content has a separate review path. The standard GitHub connection in ChatGPT is read-only: a small local command-line handoff persists an explicitly authorized decision in Git, after which the packet must be rebuilt and reloaded. No custom chat portal, database, enterprise RBAC or new application is in scope.
+
+The earlier research roadmap below remains background, not an instruction to expand this iteration. Immutable tags and the versioned decision records preserve its history.
 
 ## Project objectives
 
@@ -19,7 +31,7 @@ The hypothesis is that structured handoffs and targeted context retrieval improv
 
 ## Current status
 
-Planning is documented. Laboratory implementation and functional brownfield analysis have not started. Let's Check is the selected real case; its separate local checkout is excluded from this public repository.
+Let's Check is the selected brownfield case. Its source checkout remains separate and read-only; new case evidence and wiki implementation belong in a separate private repository. Consult Atlassian for live execution status, test receipts and pending approvals, not this README.
 
 The dedicated personal Atlassian site provides Jira and Confluence on Free plans. Environment verification and connector validation are retained in the immutable discovery milestones. Consult Atlassian for current operational status and work priorities.
 
@@ -72,7 +84,7 @@ The dedicated personal Atlassian site contains the Adastra Confluence space and 
 
 The [Adastra Kanban board](https://voloirex.atlassian.net/jira/software/projects/ADA/boards/1) links to the [Confluence documentation home](https://voloirex.atlassian.net/wiki/spaces/ADA/overview) through Shortcuts, and its Docs view is connected to the Adastra space. Confluence provides the reciprocal board shortcut. Subscription and navigation evidence is recorded in the [discovery travel log](docs/TRAVEL_LOG.md).
 
-Use the supported connector where available and authorized; use the browser when the owner selects that route. Do not create API tokens or custom REST adapters unless a later, approved experiment demonstrates a requirement the connector cannot satisfy. If account flows route to a company organization, or request a paid trial, payment details, or broader scopes, stop and verify the destination and authorization boundary.
+For the current personal Atlassian site, use the owner's authenticated Brave browser. The installed Atlassian connector is configured for another tenant and must not be used for this work. Do not create API tokens or custom REST adapters. If account flows route to a company organization, or request a paid trial, payment details, or broader scopes, stop and verify the destination and authorization boundary.
 
 ### Execution and cost controls
 
@@ -94,9 +106,9 @@ Jira and GitHub must advance coherently. A work item that changes repository con
 
 The owner-approved approach uses [OpenSpec](https://github.com/Fission-AI/OpenSpec) from the first bounded brownfield exploration. Build the behavioral baseline incrementally for the selected slice, using code and test evidence; a complete application specification is not an entry requirement. Technical feasibility, private data boundaries, exact input revisions, runtime qualification, and an approved run budget still precede execution.
 
-OpenSpec supplies the exploration and specification workflow, while the approved brownfield procedure supplies the evidence contract. Keep observed behavior, hypotheses, and intended changes distinct. Freeze reconstruction before comparing existing documentation and validating intent with the owner. A reviewed slice can then support a small change through proposal, review, implementation, verification, and archive.
+OpenSpec supplies the exploration and specification workflow. Keep observed behavior, hypotheses, and intended changes distinct. The current small demonstration may inspect code and historical design together and must be labeled non-blind; it is not the earlier withheld-reference experiment and must not report a reconstruction score. A future controlled experiment would still require its separate approved protocol.
 
-This is an approved starting approach, not a claim of installation or a completed experiment. Case-specific artifacts stay in the approved private environment. Jira owns work state and Confluence owns operational procedures; OpenSpec must not create a competing backlog in Git. Setup and run preparation are tracked in [ADA-5](https://voloirex.atlassian.net/browse/ADA-5), with sequencing in the [brownfield guide](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/163847). See also the [upstream brownfield guide](https://github.com/Fission-AI/OpenSpec/blob/main/docs/existing-projects.md).
+Case-specific artifacts stay in the approved private environment. Jira owns work state and Confluence owns operational procedures; OpenSpec must not create a competing backlog in Git. The existing work item is [ADA-5](https://voloirex.atlassian.net/browse/ADA-5); the [brownfield guide](https://voloirex.atlassian.net/wiki/spaces/ADA/pages/163847) preserves the earlier protocol. See also the [upstream brownfield guide](https://github.com/Fission-AI/OpenSpec/blob/main/docs/existing-projects.md). Current receipts must distinguish checks actually executed from future acceptance steps.
 
 ## Skills and evaluation roadmap
 
@@ -123,11 +135,11 @@ Claude Code support does not automatically establish support in every Claude web
 
 References: [Superpowers](https://github.com/obra/superpowers), [Claude Code skills](https://code.claude.com/docs/en/skills).
 
-## Phase 3: Durable knowledge, provenance, and linting
+## Durable knowledge, provenance, and linting
 
 [Karpathy's LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) describes a pattern, not an installable product or a verified skill. It separates source material, a maintained Markdown wiki, and conventions for ingestion, queries, and maintenance. Its lint operation includes finding contradictions, outdated claims, and missing connections.
 
-The following is Adastra's proposed adaptation, not a capability already implemented or guaranteed by that gist. Design the evidence fields before the first brownfield run; evaluate wiki maintenance after phases 1 and 2 produce material.
+The following is Adastra's adaptation, not a capability guaranteed by that gist. Its approval and evidence-binding rules are explicit additions. The wiki now starts immediately; implementation and acceptance are tracked in Atlassian, not inferred from this design text.
 
 ### What to preserve
 
@@ -148,7 +160,7 @@ Use separate fields for claim type (observation, intent, hypothesis, decision), 
 
 Git versions the accepted knowledge snapshot and its links to specifications, code, and evidence. Jira tracks work; Confluence presents explanatory pages. The wiki is a derived, navigable synthesis, not a replacement for source evidence or PO authority. Preserve authorized source snapshots separately; keep confidential material outside this public repository.
 
-Publish approved snapshots to Confluence with their originating revision and page mapping. Link Jira items to the corresponding requirements and evidence. Initially use one-way publication; edits made in Atlassian become explicit change proposals before they alter the accepted snapshot. Publication failures remain visible and retryable without pretending both systems agree.
+Confluence holds explanatory procedures and results, with links to Git revisions; it is not a second writable copy of the knowledge store. Link Jira items to evidence when authorized. Source changes become explicit review inputs before they alter accepted knowledge. Publication failures remain visible without pretending systems agree.
 
 ### Proposed maintenance cycle
 
@@ -160,9 +172,11 @@ Structural lint checks required fields, identifier uniqueness, resolvable author
 
 Start with a small, owner-reviewed set of records. Seed known missing sources, contradictions, and stale references into isolated test copies. Measure detection and false-positive rates, time until stale knowledge is flagged, source coverage, unsupported assertions, human correction time, and maintenance cost. Test whether a reader can correctly recover what was decided, why, by whose authority, and for which revision. Compare against the same questions using only the existing README and journal.
 
-No wiki service, lint implementation, or new skill has been installed. Confluence is the operational documentation home; this README preserves the consolidated project design. Technical model/run provenance is experimental evidence requested by the owner; it does not change Git authorship or add coauthor credits.
+No separate wiki service is required. Executable behavior and test receipts live with the private wiki implementation. Confluence is the operational documentation home; this README preserves the consolidated project design. Technical model/run provenance is experimental evidence requested by the owner; it does not change Git authorship or add coauthor credits.
 
-## Reconciliation before documentation updates
+## Historical delivery-reconciliation design
+
+The diagram below records the earlier delivery-review design. It is not the current demo's governing flow: knowledge reconciliation now starts with source evidence, proposes a claim, checks it, obtains an exact owner decision, saves it in Git and exports only applicable approved knowledge. It does not require a code change or an approval on behalf of the source delivery process.
 
 ```mermaid
 flowchart TD
@@ -193,7 +207,7 @@ The PO and technical reviewer resolve discrepancies by requesting a code correct
 
 Record the accepted reconciliation report in Git. Prepare a revision-linked Confluence update describing actual behavior, limitations, and decisions; the owner approves publication. Update Jira only according to agreed completion rules. Wiki synthesis is optional downstream work, not a prerequisite for reconciliation or a second acceptance authority. Linting, technical verification, and business acceptance serve different purposes.
 
-## Read-only project consultation
+## Deferred: read-only Slack project consultation
 
 Plan an optional Slack interface for questions about approved knowledge and project progress. Start with explicit mentions in an authorized experiment channel, not unsolicited updates. Consult Jira for ticket and epic state, GitHub for code and check evidence, and approved documentation for intent and rationale. Include source links and retrieval time; disclose unavailable or conflicting evidence. Do not equate closed-ticket counts with a reliable completion percentage.
 
@@ -201,7 +215,7 @@ The first version must not change tickets, approve work, or edit knowledge. Rest
 
 Credentials must stay outside chat, Git, command history, and logs. A future local masked prompt is only an input mechanism, not a complete secret-storage solution. No Slack connection or credential collection has occurred.
 
-## Final package and maintenance expectations
+## Longer-term package and maintenance expectations
 
 Deliver a reproducible discovery-to-evolution walkthrough, evidence-backed brownfield findings, approved requirements and backlog, reconciliation reports, decision history, publication procedures, and measured results. Include business-readable explanations and technical onboarding paths linking decisions to exact code revisions and checks.
 
