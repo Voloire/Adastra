@@ -31,8 +31,9 @@
 
 - Separate measured usage, estimated cost, and unavailable data.
 - Before delegation, perform 2-3 direct reads, define at most three initial questions with nonoverlapping scopes, and state the budget.
-- Use Sol with medium reasoning for primary reasoning, planning, coordination and review. These rules apply to both laboratory experiments and actual project work.
+- Use Sol with medium reasoning only for genuinely complex reasoning, planning, coordination or review; do not spend Sol on routine tasks. These rules apply to both laboratory experiments and actual project work.
 - Use Luna 5.6 with high reasoning effort for development, feature implementation and other bounded execution; delegate to Luna whenever useful.
+- Luna with high reasoning is the default execution model and performs the heavy lifting whenever delegation is safe: routine work, coding, tests, substantial file changes and operational verification. Sol handles only the complex part and does not duplicate Luna's implementation.
 - Sub-agents are capped at Luna. Do not dispatch Sol, Astra or another higher-tier sub-agent unless Franco explicitly overrides this agreement.
 - Never assign multiple agents to the same task. Multiple delegated needs must be distinct and non-overlapping; keep execution sequential whenever scopes share files, state or decisions.
 - Select models explicitly. Do not switch, escalate or silently substitute models when a selected model is unavailable; obtain Franco's explicit approval for any exception.
